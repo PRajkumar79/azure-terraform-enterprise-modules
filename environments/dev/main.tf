@@ -20,7 +20,7 @@ module "vnet" {
   tags = var.tags
 }
 
-module "storage" {
+/*module "storage" {
   source = "../../modules/storage"
 
   storage_name = var.storage_name
@@ -88,4 +88,4 @@ module "aks" {
   location   = var.location
   node_count = var.node_count
   vm_size    = var.aks_vm_size
-}
+}*/
